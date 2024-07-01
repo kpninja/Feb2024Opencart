@@ -17,7 +17,7 @@ import io.qameta.allure.SeverityLevel;
 
 public class LoginPageTest extends BaseTest {
 
-	@Description("checking login page title ----")
+	@Description("checking login page title test----")
 	@Severity(SeverityLevel.MINOR)
 	@Owner("Naveen Automation Labs")
 	@Issue("Login-123")
