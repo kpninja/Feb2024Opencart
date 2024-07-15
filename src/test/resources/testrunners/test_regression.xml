@@ -49,5 +49,6 @@
 		<classes>
 			<class name="com.qa.opencart.tests.RegistrerPageTest" />
 		</classes>
-	</test>   --
-</suite>	
+	</test>   -->
+</suite>
+
