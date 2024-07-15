@@ -128,13 +128,13 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						 <suiteXmlFile>src/test/resources/testrunners/test_regression.xml</suiteXmlFile>
-					<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+					<!-- <suiteXmlFile>src/test/resources/testrunners/test_regression.xml</suiteXmlFile>-->
+					 <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
 					</suiteXmlFiles>
 					
 					<argLine>
-						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-					</argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar" -->
+				</argLine>
 					
 				</configuration>
 				
